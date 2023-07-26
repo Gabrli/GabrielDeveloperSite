@@ -45,6 +45,22 @@
   letter-spacing: 1px;
   font-size: 6vw;
 }
+.arrow-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 600px;
+}
+.arrow-container button{
+ font-size: 39px;
+ transition: .2s ease-in-out;
+ animation: moveArrow 2s infinite;
+ border: 0;
+ background: transparent;
+ color: grey;
+}
 #icon {
     transition: .2s ease-in-out;
   background: transparent;
@@ -56,3 +72,19 @@
     transition: .2s ease-in-out;
     transform: scale(1.1,1.1);
 }
+.arrow-container button:hover{
+  transition: .2s ease-in-out;
+  color: #fff;
+}
+
+@keyframes moveArrow{
+  0%{
+    transform: translateY(0%);
+  }
+  50%{
+    transform: translateY(18%);
+  } 100%{
+    transform: translateY(0%);
+  }
+}
+

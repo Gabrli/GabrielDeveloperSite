@@ -60,11 +60,66 @@
     margin-right: 20px;
     display: none;
 }
-.side-menu{
-    width: 240px;
-    height: 100vh;
-    background-color: #111;
+
+.side-menu-wrapper{
+ width: 240px;
+ height: 100vh;
+ background-color: #111;
+ transform: translateX(-100%);
+ transition: .2s ease-in-out;
+ border-right: 1px solid #222;
+ position: fixed;
+ top: 61px;
 }
+.side-menu-wrapper ul{
+    position: relative;
+    top: 30px;
+    right: 70px;
+}
+.side-menu-wrapper ul li{
+   
+    color: grey;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    list-style-type: none;
+    letter-spacing: 1px;
+    width: 140px;
+    padding: 3px;
+    border: 1px solid #222;
+    margin: 70px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.side-menu-wrapper button{
+    text-align: center;
+    width: 20px;
+    height: 40px;
+    font-size: 28px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #404040;
+    color: grey;
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+.side-menu-wrapper button p{
+    position: relative;
+    bottom: 41px;
+    right: 14px;
+}
+
+.active-menu{
+    transition: .2s ease-in-out;
+    transform: translateX(0%);
+}
+.side-menu-wrapper ul li:hover{
+    transition: .2s ease-in-out;
+    color: #fff;
+}
+
 .navigation ul li:hover{
     transition: .2s ease-in-out;
     color: #fff;
@@ -73,6 +128,7 @@
 .nav-button-git:hover{
     transition: .2s ease-in-out;
     color: #fff;
+    border-color: #fff;
 }
 .btn-show-side-menu:hover{
     transition: .2s ease-in-out;
@@ -88,4 +144,5 @@
     .btn-show-side-menu{
         display: block;
     }
+    
 }

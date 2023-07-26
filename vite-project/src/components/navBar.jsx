@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./styles/nav.css";
 import { FaGithub, FaBars } from 'react-icons/fa';
 
-import SideMenu from "./sideMenu";
-export default function NavBar() {
-  const [sideMenu, setSideMenu] = useState(false)
+
+export default function NavBar(props) {
+  
   return (
     <>
       <div className="navigation">
@@ -14,7 +14,7 @@ export default function NavBar() {
           <li><b>Contact</b></li>
           <li><b>Projects</b></li>
         </ul>
-        <button className="btn-show-side-menu">{<FaBars/>}</button>
+        <button onClick={() => props.setSideMenu(!props.sideMenu)} className="btn-show-side-menu">{<FaBars/>}</button>
       </div>
 
      
