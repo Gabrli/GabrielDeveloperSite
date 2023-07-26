@@ -1,9 +1,91 @@
 .navigation{
     width: 100%;
     height: 60px;
-    background-color: #090909;
-    border-bottom: 1px solid #202020 ;
-    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111;
+    border-bottom: 1px solid #303030;
+    position: fixed;
     top: 0px;
     left: 0px;
+}
+.navigation ul{
+    display: flex;
+}
+.nav-button-git{
+    text-align: center;
+   width: 20px;
+   height: 40px;
+   font-size: 28px;
+   background: transparent;
+   color: #fff;
+   border: 1px solid #404040;
+   color: grey;
+   position: relative;
+   left: 15px;
+}
+.nav-button-git p {
+    
+    position: relative;
+    bottom: 41px;
+    right: 14px;
+
+}
+.navigation ul li{
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    width: 80px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 1px solid #303030;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+    margin: 13px;
+    
+}
+.btn-show-side-menu{
+   transition: .2s ease-in-out;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #333;
+    color: grey;
+    margin-right: 20px;
+    display: none;
+}
+.side-menu{
+    width: 240px;
+    height: 100vh;
+    background-color: #111;
+}
+.navigation ul li:hover{
+    transition: .2s ease-in-out;
+    color: #fff;
+
+}
+.nav-button-git:hover{
+    transition: .2s ease-in-out;
+    color: #fff;
+}
+.btn-show-side-menu:hover{
+    transition: .2s ease-in-out;
+    color: #fff;
+}
+@media screen and (max-width: 704px){
+    .navigation ul li{
+        display: none;
+    }
+    .nav-button-git{
+        display: none;
+    }
+    .btn-show-side-menu{
+        display: block;
+    }
 }
