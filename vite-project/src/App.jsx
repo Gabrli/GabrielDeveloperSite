@@ -2,9 +2,9 @@
 import React, { useState } from 'react'
 import NavBar from './components/navBar'
 import MainBG from './components/backgroundSite'
-import Arrow from './components/arrow'
 import WelcomeContainer from './components/welcome'
 import SideMenu from './components/sideMenu'
+import About from './components/about'
 function App() {
   
   const [sideMenu, setSideMenu] = useState(false)
@@ -14,7 +14,7 @@ function App() {
     <MainBG/>
     <NavBar sideMenu={sideMenu} setSideMenu={setSideMenu}/>
     <WelcomeContainer/>
-    <Arrow/>
+    <About/>
     <SideMenu sideMenu={sideMenu} setSideMenu={setSideMenu}/>
     </>
   )
