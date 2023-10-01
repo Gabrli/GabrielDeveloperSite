@@ -7,12 +7,15 @@
     justify-content: space-between;
     background-color: #111;
     border-bottom: 1px solid #303030;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
 .navigation ul{
     display: flex;
+}
+.nav-active{
+    background-color: black;
 }
 .nav-button-git{
     text-align: center;
@@ -66,10 +69,11 @@
  height: 100vh;
  background-color: #111;
  transform: translateX(-100%);
+ z-index: 1;
  transition: .2s ease-in-out;
  border-right: 1px solid #222;
  position: fixed;
- top: 61px;
+ top: 0px;
 }
 .side-menu-wrapper ul{
     position: relative;

@@ -5,18 +5,21 @@ import WelcomeContainer from './components/welcome'
 import SideMenu from './components/sideMenu'
 import About from './components/about'
 import Projects from './components/projects'
+import Footer from './components/footer'
 function App() {
   
   const [sideMenu, setSideMenu] = useState(false)
+  const [clientY, setClientY] = useState(window.scrollY)
 
   return (
     <>
     <MainBG/>
-    <NavBar sideMenu={sideMenu} setSideMenu={setSideMenu}/>
+    <NavBar clientY={clientY} sideMenu={sideMenu} setSideMenu={setSideMenu}/>
     <WelcomeContainer/>
     <About/>
     <Projects/>
     <SideMenu sideMenu={sideMenu} setSideMenu={setSideMenu}/>
+    <Footer/>
     </>
   )
 }

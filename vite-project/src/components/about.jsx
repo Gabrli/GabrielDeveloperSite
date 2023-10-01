@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <div className="about-container">
-        <div className="about-box">
+        <div id="ab" className="about-box">
           <header>
             <p>
               <b>ABOUT ME.MD</b>

@@ -20,7 +20,7 @@ const projectThreeBg = {
 export default function Projects() {
   return (
     <>
-      <div className="projects-header">
+      <div id="pro" className="projects-header">
         <p>
           <b>My Projects</b>
         </p>
