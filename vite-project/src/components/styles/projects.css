@@ -1,0 +1,140 @@
+.projects-header{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid #202020;
+    border-radius: 7px;
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 1100px;
+  
+    letter-spacing: 1px;
+}
+.projects-header p {
+    font-size: 18px;
+}
+.projects-wrapper{
+  
+    position: relative;
+    top: 1200px;
+}
+.projects-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.projects-box section{
+  
+    background-color: rgba(0,0,0, 0.5);
+    border: 1px solid #202020;
+
+    position: relative;
+    margin-left: 15px;
+}
+.multimedia-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  
+  margin: 13px;
+}
+.multimedia-box::after{
+    border-left: 1px solid #fff;
+    content: "";
+    width: 10px;
+    height: 57%;
+}
+.multimedia-box header{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #202020;
+}
+.img-box{
+    transition: .2s ease-in-out;
+    max-width: 590px;
+    min-width: 90%;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    
+    position: relative;
+    border: 1px solid rgb(39, 31, 39);
+    top: 15px;
+}
+
+.options-wrapper{
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    top: 33px;
+    align-items: center;
+}
+.descryption-box{
+    margin: 20px;
+    width: 50%;
+}
+.descryption-box header{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #202020;
+}
+.descryption-box section{
+    border: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.descryption-box section p{
+    font-size: 13px;
+    color: grey;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.img-box:hover{
+    transition: .2s ease-in-out;
+    border-color: rebeccapurple;
+}
+
+@media screen and (max-width: 1002px) {
+    .projects-box{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 0;
+    }
+    .multimedia-box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    border-left: 0;
+ 
+    margin-left: 0;
+    
+    }
+    .descryption-box{
+        border-right: 0;
+   
+    }
+    .img-box{
+
+        width: 380px;
+    }
+}
+@media screen and (max-width: 439px) {
+    
+    .img-box{
+        width: 380px;
+    }
+}
