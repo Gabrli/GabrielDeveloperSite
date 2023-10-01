@@ -33,7 +33,7 @@
     border: 1px solid #202020;
 
     position: relative;
-    margin-left: 15px;
+    
 }
 .multimedia-box{
   display: flex;
@@ -79,6 +79,10 @@
     position: relative;
     top: 33px;
     align-items: center;
+}
+.options-wrapper button{
+    background-color: #fff;
+    color: #202020;
 }
 .descryption-box{
     margin: 20px;
@@ -136,5 +140,8 @@
     
     .img-box{
         width: 380px;
+    }
+    .projects-box section{
+       margin-left: 10px;
     }
 }
