@@ -93,6 +93,9 @@
     text-align: center;
     border-bottom: 1px solid #202020;
 }
+.descryption-box header p{
+    color: #fff;
+}
 .descryption-box section{
     border: 0;
     text-align: center;

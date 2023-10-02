@@ -15,6 +15,7 @@
 .app-footer header p{
     letter-spacing: 1px;
     font-size: 24px;
+    color: #fff;
 }
 .app-footer ul{
     
@@ -65,6 +66,7 @@
 .copyright-box p{
     letter-spacing: 1px;
     font-size: 14px;
+    color: #fff;
     
 }
 .app-footer ul li:hover{
