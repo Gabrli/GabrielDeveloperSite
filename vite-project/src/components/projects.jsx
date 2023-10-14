@@ -29,17 +29,17 @@ export default function Projects() {
           <section className="multimedia-box">
             <header>
               <p>
-                <b>Weather app</b>
+                <b>Online Dictionary</b>
               </p>
             </header>
 
             {renderImage[1]}
 
             <div className="options-wrapper">
-              <a target="_blank" href="https://github.com/Gabrli/Weather-app">
+              <a target="_blank" href="https://github.com/Gabrli/Dictionary-app">
                 <button>Repo</button>
               </a>
-              <a target="_blank" href="https://gabrli.github.io/Weather-app/">
+              <a target="_blank" href="https://gabrli.github.io/Dictionary-app/">
                 <button>Live</button>
               </a>
             </div>
@@ -52,9 +52,9 @@ export default function Projects() {
             </header>
             <section>
               <p className="project-descryption">
-                Hi there ! This project is it my new weather app, where you can
-                check weather in your city ! While was creating the project I
-                wanted practise my skils in TypeScript, CSS3 and HTML5. So this
+                Hi there ! This project is it my new dictionary app, where you can fast
+                researching english words and informations about him ! While was creating the project I
+                wanted practise my skils in React +  TypeScript, CSS3 and HTML5. So this
                 app I showed my skils in connect with Backend, Api - data bases.
               </p>
             </section>
