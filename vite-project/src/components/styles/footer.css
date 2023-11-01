@@ -67,7 +67,7 @@
     
 }
 .media_links_wrapper a:hover{
-   
+    color: #fff;
     background-color: rgb(134, 7, 134);
 }
 @media screen and (max-width: 1002px){

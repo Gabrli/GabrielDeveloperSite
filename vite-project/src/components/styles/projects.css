@@ -15,7 +15,7 @@
 .projects-header p {
     font-size: 18px;
 }
-.projects-wrapper{
+.projects_wrapper{
   
     position: relative;
     top: 1200px;
@@ -53,6 +53,7 @@
     text-align: center;
     border-bottom: 1px solid #202020;
 }
+
 .img-box{
     transition: .2s ease-in-out;
     max-width: 590px;
@@ -80,9 +81,12 @@
     top: 33px;
     align-items: center;
 }
-.options-wrapper button{
+.options-wrapper a{
+    transition: all .4s;
     background-color: #fff;
     color: #202020;
+    padding: 6px 18px;
+    border-radius: 8px;
 }
 .descryption-box{
    margin: 20px;
@@ -96,12 +100,12 @@
 .descryption-box header p{
     color: #fff;
 }
-.descryption-box section{
+.descryption-box div{
     border: 0;
     text-align: center;
     padding-bottom: 10px;
 }
-.descryption-box section p{
+.descryption-box div p{
     font-size: 13px;
     color: rgb(230, 225, 225);
     letter-spacing: 1px;
@@ -113,6 +117,10 @@
 .img-box:hover{
     transition: .2s ease-in-out;
     border-color: rebeccapurple;
+}
+.options-wrapper a:hover{
+    transform: scale(1.1,1.1);
+    color: #202020;
 }
 
 @media screen and (max-width: 1002px) {
