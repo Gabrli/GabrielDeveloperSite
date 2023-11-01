@@ -105,6 +105,7 @@
 .media_links_wrapper{
   display: flex;
   justify-content: start;
+  padding-bottom: 40px;
 }
 
 

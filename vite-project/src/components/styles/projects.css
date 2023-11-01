@@ -39,6 +39,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%;
+  width: 30vw;
   
   margin: 13px;
 }
@@ -132,6 +133,7 @@
         margin: 0px 0;
     }
     .multimedia-box{
+        width: 70vw;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -157,5 +159,8 @@
     }
     .projects-box section{
        margin-left: 10px;
+    }
+    .multimedia-box {
+        width: 90vw;
     }
 }

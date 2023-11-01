@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import NavBar from './components/navBar'
 import MainBG from './components/bg'
-import WelcomeContainer from './components/welcome'
+import Home from './components/home'
 import SideMenu from './components/sideMenu'
 import About from './components/about'
 import Projects from './components/projects'
@@ -15,7 +15,7 @@ function App() {
     <>
     <MainBG/>
     <NavBar clientY={clientY} sideMenu={sideMenu} setSideMenu={setSideMenu}/>
-    <WelcomeContainer/>
+    <Home/>
     <About/>
     <Projects/>
     <SideMenu sideMenu={sideMenu} setSideMenu={setSideMenu}/>

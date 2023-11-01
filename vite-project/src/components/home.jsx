@@ -1,10 +1,10 @@
 import React from "react";
-import "./styles/welcome.css";
+import "./styles/home.css";
 import gr from './assets/iconic.svg'
 import Title from "./title";
 import MediaLinksList from "./contactComponents/mediaLinksList";
 
-export default function WelcomeContainer() {
+export default function Home() {
   return (
     <div className="main-main-grid">
       <div className="welcome-sections-box">
