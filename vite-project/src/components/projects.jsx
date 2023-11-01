@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/projects.css";
+import "../styles/projects.css";
 import ProjectsList from "./projectsComponents/projectsList";
 
 export default function Projects() {

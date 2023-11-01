@@ -1,7 +1,6 @@
 import React from "react";
-import './styles/footer.css'
-import { BsFillEnvelopeAtFill, BsFillTelephonePlusFill } from "react-icons/bs"
-import { FaInstagram, FaGithub } from 'react-icons/fa'
+import '../styles/footer.css'
+
 import MediaLinksList from "./contactComponents/mediaLinksList";
 export default function Footer(){
     return (

@@ -1,8 +1,8 @@
 import { descryptions } from "./descryptionsObj/descryptions"
 import Project from "./project"
-import projectImg1 from '../assets/polite1.png'
-import projectImg2 from '../assets/pro2.png'
-import projectImg3 from '../assets/pro3.png'
+import projectImg1 from '../../assets/polite1.png'
+import projectImg2 from '../../assets/pro2.png'
+import projectImg3 from '../../assets/pro3.png'
 export default function ProjectsList(){
 
     const projects = [

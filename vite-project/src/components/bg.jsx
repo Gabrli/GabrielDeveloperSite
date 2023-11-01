@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import "./styles/bg.css";
+import "../styles/bg.css";
 
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";

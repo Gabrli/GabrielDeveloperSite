@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/nav.css";
+import "../styles/nav.css";
 import { FaGithub, FaBars } from 'react-icons/fa';
 import NavbuttonToggle from "./navigationComponents/navButtonToggle";
 import SideMenuLinksList from "./navigationComponents/navLinksList";

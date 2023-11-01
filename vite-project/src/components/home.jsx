@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles/home.css";
-import gr from './assets/iconic.svg'
+import "../styles/home.css";
+import gr from '../assets/iconic.svg'
 import Title from "./title";
 import MediaLinksList from "./contactComponents/mediaLinksList";
 

@@ -16,7 +16,7 @@
     font-size: 18px;
 }
 .projects_wrapper{
-  
+    width: 100vw;
     position: relative;
     top: 1200px;
 }
@@ -91,7 +91,7 @@
 }
 .descryption-box{
    margin: 20px;
-    width: 50vw;
+    width: 80vw;
 }
 .descryption-box header{
     width: 100%;
@@ -162,5 +162,8 @@
     }
     .multimedia-box {
         width: 90vw;
+    }
+    .descryption-box div p{
+        font-size: 11px;
     }
 }
