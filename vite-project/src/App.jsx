@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import NavBar from './components/navBar'
-import MainBG from './components/backgroundSite'
+import MainBG from './components/bg'
 import WelcomeContainer from './components/welcome'
 import SideMenu from './components/sideMenu'
 import About from './components/about'

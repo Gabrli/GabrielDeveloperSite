@@ -17,8 +17,8 @@
     font-size: 24px;
     color: #fff;
 }
-.app-footer ul{
-    
+
+.media_links_wrapper{
     display: flex;
     text-align: center;
     gap: 20px;
@@ -28,7 +28,6 @@
     padding-left: 0;
     position: relative;
     top: 40px;
-    
 }
 .text-footer-box{
     width: 100%;
@@ -41,10 +40,11 @@
     letter-spacing: 1px;
     font-size: 13px;
 }
-.app-footer ul li{
-    transition: .2s ease-in-out;
+.media_links_wrapper a{
+    transition: all .4s;
     width: 40px;
     height: 40px;
+    line-height: 45px;
     border-radius: 50%;
     outline: none;
     background-color: rgb(66, 2, 68);
@@ -53,10 +53,7 @@
     color:  #f6f6f6;
     
 }
-.app-footer ul li b{
-    position: relative;
-    top: 10px;
-}
+
 .copyright-box{
     width: 100%;
     text-align: center;
@@ -69,8 +66,8 @@
     color: #fff;
     
 }
-.app-footer ul li:hover{
-    transition: .2s ease-in-out;
+.media_links_wrapper a:hover{
+   
     background-color: rgb(134, 7, 134);
 }
 @media screen and (max-width: 1002px){

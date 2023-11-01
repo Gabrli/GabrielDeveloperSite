@@ -14,17 +14,18 @@
 .navigation ul{
     display: flex;
 }
-.nav-active{
+.nav_active{
     background-color: black;
 }
-.nav-button-git{
+.nav_button_git{
     text-align: center;
-   width: 20px;
+   width: 80px;
    height: 40px;
    font-size: 28px;
    background: transparent;
    color: #fff;
    border: 1px solid #404040;
+   border-radius: 8px;
    color: grey;
    position: relative;
    left: 15px;
@@ -37,7 +38,7 @@
 
 }
 .navigation ul li{
-    transition: .2s ease-in-out;
+    transition: all .4s;
     cursor: pointer;
     width: 80px;
     letter-spacing: 1px;
@@ -51,8 +52,12 @@
     margin: 13px;
     
 }
-.btn-show-side-menu{
-   transition: .2s ease-in-out;
+.navigation ul li a{
+    transition:  all .4s;
+    color: grey;
+}
+.btn_show_side_menu{
+   transition: all .4s;
     padding: 0;
     width: 40px;
     height: 40px;
@@ -64,7 +69,7 @@
     display: none;
 }
 
-.side-menu-wrapper{
+.side_menu_wrapper{
  width: 240px;
  height: 100vh;
  background-color: #111;
@@ -75,12 +80,12 @@
  position: fixed;
  top: 0px;
 }
-.side-menu-wrapper ul{
+.side_menu_wrapper ul{
     position: relative;
-    top: 30px;
+    top: 15vh;
     right: 70px;
 }
-.side-menu-wrapper ul li{
+.side_menu_wrapper ul li{
    
     color: grey;
     cursor: pointer;
@@ -96,10 +101,15 @@
     border-radius: 5px;
 
 }
-.side-menu-wrapper button{
+.side_menu_wrapper ul li a{
+    transition:  all .4s;
+    color: grey;
+}
+.nav_button_git_menu{
+    transition:  all .4s;
     text-align: center;
-    width: 20px;
-    height: 40px;
+    padding: 5px 10px;
+    border-radius: 8px;
     font-size: 28px;
     background: transparent;
     color: #fff;
@@ -107,34 +117,30 @@
     color: grey;
     position: relative;
     top: 50px;
-    left: 80px;
-}
-.side-menu-wrapper button p{
-    position: relative;
-    bottom: 41px;
-    right: 14px;
+    left: 90px;
 }
 
-.active-menu{
+
+.active_menu{
     transition: .2s ease-in-out;
     transform: translateX(0%);
 }
-.side-menu-wrapper ul li:hover{
-    transition: .2s ease-in-out;
+.side_menu_wrapper ul li a:hover{
+    
     color: #fff;
 }
 
-.navigation ul li:hover{
-    transition: .2s ease-in-out;
+.navigation ul li a:hover{
+    
     color: #fff;
 
 }
-.nav-button-git:hover{
+.nav_button_git_menu:hover{
     transition: .2s ease-in-out;
     color: #fff;
     border-color: #fff;
 }
-.btn-show-side-menu:hover{
+.btn_show_side_menu:hover{
     transition: .2s ease-in-out;
     color: #fff;
 }
@@ -142,10 +148,10 @@
     .navigation ul li{
         display: none;
     }
-    .nav-button-git{
+    .nav_button_git{
         display: none;
     }
-    .btn-show-side-menu{
+    .btn_show_side_menu{
         display: block;
     }
     

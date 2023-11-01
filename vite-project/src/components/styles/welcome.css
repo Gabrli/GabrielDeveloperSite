@@ -79,26 +79,21 @@
 }
 
 
-#first button{
+#first a{
   transition: all .4s;
-  width: 45px;
-  height: 45px;
+  
   border-radius: 50%;
   text-align: center;
-  margin: 6px;
+  
   background-color: #31023b;
   outline: none;
   font-size: 19px;
   
   color: violet;
 }
-#first button span{
-  position: relative;
-  right: 9px;
 
-}
 
-#first button:hover{
+#first a:hover{
 
   background-color: #4d025c;
   transform: scale(1.1,1.1);
@@ -106,6 +101,10 @@
 #second img:hover{
   transition: .2s ease-in-out;
   transform: scale(1.1,1.1);
+}
+.media_links_wrapper{
+  display: flex;
+  justify-content: start;
 }
 
 

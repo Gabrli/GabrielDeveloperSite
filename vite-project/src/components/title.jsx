@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 
 export default function Title() {
  
-
   return (
     <div className="title-container">
       <h1 className="title">
