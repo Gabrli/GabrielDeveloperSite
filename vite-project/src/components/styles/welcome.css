@@ -80,27 +80,26 @@
 
 
 #first button{
-  transition: .2s ease-in-out;
+  transition: all .4s;
   width: 45px;
   height: 45px;
   border-radius: 50%;
   text-align: center;
   margin: 6px;
-  background-color: #30013a;
+  background-color: #31023b;
   outline: none;
   font-size: 19px;
-
+  
   color: violet;
 }
 #first button span{
- 
   position: relative;
   right: 9px;
 
 }
 
 #first button:hover{
-  transition: .2s ease-in-out;
+
   background-color: #4d025c;
   transform: scale(1.1,1.1);
 }

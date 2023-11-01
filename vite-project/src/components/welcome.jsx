@@ -12,9 +12,9 @@ export default function WelcomeContainer() {
         <section id="first">
           {<Title />}
           <div className="buttons-wrapper">
-          <a href="https://www.instagram.com/reel/CtmcFHSgdq0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank"><button><span>{<FaInstagram/>}</span></button></a>
-          <a href="mailto: gabrys.wisniewski@op.pl"><button><span>{<BsFillEnvelopeAtFill/>}</span></button></a>
-          <a href="tel:+48694638608"><button><span>{<BsFillTelephonePlusFill/>}</span></button></a>
+          <button><a href="https://www.instagram.com/reel/CtmcFHSgdq0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank">{<FaInstagram/>}</a></button>
+          <button><a href="mailto: gabrys.wisniewski@op.pl">{<BsFillEnvelopeAtFill/>}</a></button>
+          <button><a href="tel:+48694638608">{<BsFillTelephonePlusFill/>}</a></button>
           <a href=""><button><span>{<FaDiscord/>}</span></button></a>
           </div>
           </section>

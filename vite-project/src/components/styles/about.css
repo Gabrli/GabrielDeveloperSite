@@ -1,18 +1,21 @@
 .about-container{
-    width: 100%;
-    padding-bottom: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: 990px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about-box{
-    width: 50%;
-    height: 300px;
+    width: 70vw;
+   
     background-color: rgba(0,0,0,0.5);
     border: 2px solid #202020;
     border-radius: 7px;
     font-family: 'Martian Mono', monospace;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 .about-box header{
     width: 100%;
@@ -24,9 +27,9 @@
 .about-box section{
     padding-left: 5px;
     padding-right: 5px;
+    padding-top: 35px;
     text-align: center;
-    position: relative;
-    top: 55px;
+  
 }
 .about-box section p{
     padding: 10px;
@@ -37,11 +40,15 @@
 }
 @media screen and (max-width: 1002px){
     .about-box {
-        height: 450px;
-        
+       
+        margin: 0;
+        padding: 0;
     }
     .about-box section p{
-        padding: 2px;
+        padding: 2;
         font-size: 11px;
+    }
+    .about-box section{
+        margin: 0;
     }
 }

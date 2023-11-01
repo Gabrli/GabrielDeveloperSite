@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./styles/nav.css";
 import { FaGithub, FaBars } from 'react-icons/fa';
 
 
 export default function NavBar(props) {
 
-
-
-  
-  
   return (
     <>
       <div className={`navigation ${props.clientY > 1 ? 'nav-active' : ''}`}>

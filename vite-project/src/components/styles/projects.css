@@ -31,7 +31,7 @@
   
     background-color: rgba(0,0,0, 0.5);
     border: 1px solid #202020;
-
+    border-radius: 8px;
     position: relative;
     
 }
@@ -85,8 +85,8 @@
     color: #202020;
 }
 .descryption-box{
-    margin: 20px;
-    width: 50%;
+   margin: 20px;
+    width: 50vw;
 }
 .descryption-box header{
     width: 100%;
@@ -103,9 +103,12 @@
 }
 .descryption-box section p{
     font-size: 13px;
-    color: grey;
+    color: rgb(230, 225, 225);
     letter-spacing: 1px;
     text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 .img-box:hover{
     transition: .2s ease-in-out;
