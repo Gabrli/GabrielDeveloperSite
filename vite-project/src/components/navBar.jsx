@@ -8,7 +8,7 @@ export default function NavBar(props) {
   return (
     <>
       <div className={`navigation ${props.clientY > 1 ? 'nav_active' : ''}`}>
-        <a href="" className="nav_button_git">{<FaGithub/>}</a>
+        <a href="https://github.com/Gabrli" target="_blank" className="nav_button_git">{<FaGithub/>}</a>
         
         <SideMenuLinksList/>
         <NavbuttonToggle onClick={() => props.setSideMenu(!props.sideMenu)} content={<FaBars/>}/>

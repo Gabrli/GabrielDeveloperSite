@@ -14,6 +14,7 @@
 }
 .projects-header p {
     font-size: 18px;
+    color: #fff;
 }
 .projects_wrapper{
     width: 100vw;
@@ -97,6 +98,7 @@
     width: 100%;
     text-align: center;
     border-bottom: 1px solid #202020;
+    color: #fff;
 }
 .descryption-box header p{
     color: #fff;
