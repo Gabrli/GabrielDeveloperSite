@@ -67,7 +67,7 @@
     border: 1px solid #333;
     color: grey;
     margin-right: 20px;
-    line-height: 40px;
+    line-height: 42px;
     display: none;
 }
 
@@ -116,6 +116,7 @@
     background: transparent;
     color: #fff;
     border: 1px solid #404040;
+    line-height: 40px;
     color: grey;
     position: relative;
     top: 50px;
