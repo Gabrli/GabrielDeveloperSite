@@ -25,7 +25,7 @@
    font-size: 28px;
    background: transparent;
    color: #fff;
-   border: 1px solid #404040;
+   transition:  all .4s ;
    border-radius: 8px;
    color: grey;
    position: relative;
@@ -44,7 +44,7 @@
     width: 80px;
     letter-spacing: 1px;
     text-align: center;
-    border: 1px solid #303030;
+    
     padding: 3px;
     border-radius: 5px;
     text-decoration: none;
@@ -97,7 +97,7 @@
     letter-spacing: 1px;
     width: 140px;
     padding: 3px;
-    border: 1px solid #222;
+    
     margin: 70px;
     text-align: center;
     border-radius: 5px;
@@ -158,4 +158,7 @@
         display: block;
     }
     
+}
+.nav_button_git:hover{
+    color: #fff;
 }
